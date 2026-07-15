@@ -1,4 +1,3 @@
--- File: insert_data.sql
 -- Purpose:
 -- Insert initial sample records into the Language Learning application.
 
@@ -31,6 +30,7 @@ ON DUPLICATE KEY UPDATE
 INSERT INTO languages (
     language_name
 )
+    
 VALUES
     ('English'),
     ('French'),
