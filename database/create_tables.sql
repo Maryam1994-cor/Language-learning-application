@@ -1,4 +1,3 @@
--- File: create_tables.sql
 -- Purpose:
 -- Create the relational tables used by the Language Learning application.
 -- The design follows the relational-database concepts from Chapters 23 and 24:
