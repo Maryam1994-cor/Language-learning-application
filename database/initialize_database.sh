@@ -27,8 +27,7 @@ run_sql_script() {
     if [[ -n "$MYSQL_ROOT_PASSWORD" ]]; then
         password_arguments=("--password=${MYSQL_ROOT_PASSWORD}")
     fi
-
-    echo "Running ${script_name}..."
+        echo "Running ${script_name}..."
 
     "$MYSQL_COMMAND" \
         --host="$MYSQL_HOST" \
