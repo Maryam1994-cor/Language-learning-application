@@ -259,17 +259,6 @@ The project uses the following security practices:
 
 The relational database concepts and database scripting approach used in this project are based on Chapters 23 and 24 of the assigned course textbook.
 
-OpenAI ChatGPT was used to assist with:
-
-- reviewing SQL syntax;
-- creating the database user scripts;
-- organizing the database initialization process;
-- reviewing Python database connection code;
-- improving project documentation;
-- testing database permissions and application behavior.
-
-All AI-generated suggestions were reviewed, edited, and tested before being included in the project.
-
 ## Academic Integrity
 
 The project author is responsible for understanding and explaining all submitted code.
