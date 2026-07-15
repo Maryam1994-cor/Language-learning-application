@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "version": "v1",
+    "app_name": "Language Learning Application",
+    "log_prefix": "language_learning"
+  },
+  "database": {
+    "pool": {
+      "name": "language_learning_db_pool",
+      "size": 5,
+      "reset_session": true,
+      "use_pure": true
+    },
+    "connection": {
+      "config": {
+        "database": "language_learning_db",
+        "user": "language_learning_app",
+        "host": "localhost",
+        "port": 3306
+      }
+    }
+  }
+}
